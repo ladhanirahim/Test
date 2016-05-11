@@ -1,12 +1,33 @@
 Feature: Attitude Matters
 
-In order to understand
-As a working guy
- I want to know
+In order to understand bdd
+As a working QA 
+ I want to know i can do this
 
  @Tester
- Scenario: i am the best
+ Scenario: TaskToDo
  
- Given I work in latenights
- When I meet watchmen
+ 
+ Given i am on ToDoMVC
+ When i add a new ToDo
+ Then i get new Task
+ 
+ Given i am on ToDoMVC
+ When click on active todo
+ Then can only see the active todo
+ 
+ Given i am on ToDoMVC
+ When i check the new todo as completed
+ Then i dont see any todo to be completed
+ 
+ Given i am on ToDoMVC
+ When i clcik on completed todo
+ Then i can only check my completed TODO
+ 
+ Given i am on ToDoMVC
+ when i delete a todo
+ Then i dont see any todo in the list
+ 
+
+ 
  
