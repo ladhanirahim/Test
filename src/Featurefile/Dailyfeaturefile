@@ -1,0 +1,12 @@
+Feature: Attitude Matters
+
+In order to understand
+As a working guy
+ I want to know
+
+ @Tester
+ Scenario: i am the best
+ 
+ Given I work in latenights
+ When I meet watchmen
+ 
