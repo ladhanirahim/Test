@@ -7,26 +7,29 @@ As a working QA
  @Tester
  Scenario: TaskToDo
  
+ Given i am on ToDoMVC
+ when i delete all todo
+ Then i dont see any todo in the list
  
  Given i am on ToDoMVC
  When i add a new ToDo
  Then i get new Task
  
- Given i am on ToDoMVC
- When click on active todo
- Then can only see the active todo
- 
- Given i am on ToDoMVC
+  Given i am on ToDoMVC
+ When i add a new ToDo
+ and i add a new ToDo
  When i check the new todo as completed
  Then i dont see any todo to be completed
  
  Given i am on ToDoMVC
- When i clcik on completed todo
- Then i can only check my completed TODO
+ When i add a new ToDo
+ When i add a new ToDo
+ When i add a new ToDo
+ Wheni check the new todo as completed
+ When click on active todo
+ Then can only see the active todo
  
- Given i am on ToDoMVC
- when i delete a todo
- Then i dont see any todo in the list
+ 
  
 
  

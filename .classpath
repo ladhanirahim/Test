@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="D:/cucumber_jar/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="lib" path="D:/cucumber_jar/cucumber-jvm-deps-1.0.5.jar"/>
 	<classpathentry kind="lib" path="D:/cucumber_jar/cucumber-spring-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/selenium/selenium-2.53.0/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
